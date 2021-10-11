@@ -1,18 +1,16 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# Project Name
+# Stand-up show 
 
-> One paragraph statement about the project.
+> The webpage about the main Stand-up shows around the globe for 2021.
 
-![screenshot](./app_screenshot.png)
+![screenshot](licence/app_screenshot.png)
 
-Additional description about the project and its features.
+A simple web page developed within the Microverse curriculum, which contains/provides information about world class Stand-up comedians and their shows scheduled for 2021.
 
 ## Built With
 
-- Major languages
-- Frameworks
-- Technologies used
+- HTML/CSS/JavaScript
 
 ## Live Demo
 
@@ -21,39 +19,29 @@ Additional description about the project and its features.
 
 ## Getting Started
 
-**This is an example of how you may give instructions on setting up your project locally.**
-**Modify this file to match your project, remove sections that don't apply. For example: delete the testing section if the currect project doesn't require testing.**
-
+### To see the live demo please click an the above link, to launch the project locally please follow the next steps:
 
 To get a local copy up and running follow these simple example steps.
 
-### Prerequisites
+#### Step 1:
+- Copy the link of this repo by clicking the green button - "code" on the right-top corner
+- Clone this repo locally by running the following command in your terminal:
 
-### Setup
+  git clone git@github.com:Hope1226/CAPSTONE-Stand-up-show-web.git
 
-### Install
-
-### Usage
-
-### Run tests
-
-### Deployment
-
+#### Step 2:
+- Run index.html file in your browser
+- The switch to Mobile version will occur at 750px (please, run browser toolbox and change view to mobile to review the mob version).
 
 
 ## Authors
 
 👤 **Author1**
 
-- GitHub: [@githubhandle](https://github.com/githubhandle)
+- GitHub: [@GitHub](https://github.com/githubhandle)
 - Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
+- LinkedIn: [@LinkedIn](linkedin.com/in/umidjon-ustabaev-03b92b11a)
 
-👤 **Author2**
-
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
 
 ## 🤝 Contributing
 
@@ -68,9 +56,8 @@ Give a ⭐️ if you like this project!
 ## Acknowledgments
 
 - Hat tip to anyone whose code was used
-- Inspiration
-- etc
+- Stand-up comunity
 
 ## 📝 License
 
-This project is [MIT](./MIT.md) licensed.
+This project is [MIT](licence/MIT.md) licensed.
