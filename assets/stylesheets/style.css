@@ -43,7 +43,7 @@ header {
   grid-template-columns: 1fr;
   grid-template-rows: repeat(3, auto);
   grid-gap: 20px;
-  background: linear-gradient( rgba(255, 255, 255, 0.7) 0%, rgba(255, 255, 255, 0.8) 20%, white 70%);
+  background: linear-gradient( rgba(255, 255, 255, 0.7) 0%, rgba(255, 255, 255, 0.8) 20%, rgba(255, 255, 255, 0.905) 70%);
 }
 
 .headline .hero-text {
@@ -171,4 +171,88 @@ header {
   grid-template-columns: 1fr;
   grid-template-rows: auto auto 1fr auto;
   justify-items: center;
+  padding: 40px 10px ;
+}
+
+
+.comidians {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: repeat(6, auto);
+  grid-gap: 20px;
+}
+
+.comidians .comidian {
+  display: grid;
+  grid-template-columns: 115px 1fr;
+  grid-template-rows: 120px;
+  grid-gap: 10px;
+}
+
+.comidians .comidian .com-img-container {
+  background: url(../images/comidians-img/bg-for-images.jpg) 5% 10% no-repeat;
+  background-size: 70px;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr;
+  justify-items: end;
+  align-items: end;
+}
+
+.comidians .comidian .com-img-container img {
+  width: 100px;
+}
+
+.comidians .comidian h3 {
+  font-size: 16px;
+  color: #272a31;
+}
+
+.comidians .comidian h4 {
+  font-style: italic;
+  color: #ec5242;
+  font-size: 500px;
+  font-size: 12px;
+  padding-bottom: 10px;
+}
+
+.comidians .comidian p {
+  padding-top: 10px;
+  color: #272a31;
+  font-size: 500px;
+  font-size: 12px;
+}
+
+.comidian-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.grey-line {
+  height: 2px;
+  width: 30px;
+  background: rgb(213, 213, 213);
+}
+
+.comidians-container button {
+  margin-top: 35px;
+  padding: 10px 0;
+  justify-self: stretch;
+  color: #575b66;
+  background: white;
+  border: 1px solid #d3d3d3;
+  text-transform: uppercase;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+button:hover {
+  cursor: pointer;
+}
+
+.comidians-container .hidden {
+  display: none;
 }
