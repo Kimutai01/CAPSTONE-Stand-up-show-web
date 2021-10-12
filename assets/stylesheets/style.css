@@ -302,12 +302,63 @@ button:hover {
   align-items: center;
 }
 
+.main-footer {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: repeat(2, auto);
+}
+
+.footer-head {
+  display: flex;
+  flex-direction: column;
+  background: #272a31;
+  padding: 50px 0;
+  color: #fff;
+}
+
+.footer-head h2, .red-line  {
+  align-self: center;
+}
+
+.footer-head  h2 {
+  font-size: 20px;
+}
+
+.footer-head ul {
+  list-style: none;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  justify-items: center;
+  align-items: center;
+  grid-gap: 10px;
+}
+
+.main-footer img {
+  width: 100px;
+  max-width: 200px;
+}
+
+.main-footer .copyright {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  color: #575b66;
+}
+
 /* Desctop version */
 /* Breakpoint for the switch is 769px */
 @media (min-width: 769px) {
 
+  h2 {
+    font-style: 30px;
+  }
+
   .mob-only {
     display: none;
+  }
+
+  .desctop-only {
+    display: block;
   }
 
   header {
@@ -411,10 +462,6 @@ button:hover {
     grid-gap: 20px;
   }
 
-  .main-program h2 {
-    font-size: 30px;
-  }
-
   .main-program .main-program-content {
     grid-template-columns: repeat(5, 1fr);
     grid-template-rows: 1fr;
@@ -456,13 +503,27 @@ button:hover {
     display: grid;
   }
 
-  .comidians-container h2 {
-    font-size: 30px;
-  }
-
   .comidians-container .comidians {
     grid-template-columns: 1fr 1fr;
     padding: 0 200px;
+  }
+
+  .main-footer .copyright {
+    display: grid;
+    grid-template-columns: auto 1fr;
+    grid-template-rows: auto auto;
+    grid-column-gap: 50px;
+    padding: 20px 200px;
+  }
+
+  .main-footer .footer-logo {
+    grid-row: 1 / -1;
+    display: flex;
+    align-items: center;
+  }
+
+  .main-footer .copyright p {
+    grid-column: 2;
   }
 
 }
