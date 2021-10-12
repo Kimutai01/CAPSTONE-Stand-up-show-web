@@ -1,0 +1,174 @@
+html {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  font-family: 'Lato', sans-serif;
+}
+
+*,
+*::before,
+*::after {
+  -webkit-box-sizing: inherit;
+  -moz-box-sizing: inherit;
+  box-sizing: inherit;
+  padding: 0;
+  margin: 0;
+}
+
+.desctop-only {
+  display: none;
+}
+
+/* header mob menu section */
+
+header {
+  padding: 10px 10px;
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  z-index: 3;
+}
+
+/* headline section */
+
+.headline {
+  background: url(../images/bg-img/bg-image-headline.jpg) no-repeat;
+  background-size: cover;
+}
+
+.headline .transparent-layer {
+  padding: 100px 10px 80px 10px;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: repeat(3, auto);
+  grid-gap: 20px;
+  background: linear-gradient( rgba(255, 255, 255, 0.7) 0%, rgba(255, 255, 255, 0.8) 20%, white 70%);
+}
+
+.headline .hero-text {
+  font-family: 'Mada', sans-serif;
+  font-weight: 900;
+  font-size: 60px;
+  text-transform: uppercase;
+  background-color: rgba(255, 255, 255, 0);
+  overflow: hidden;
+}
+
+.headline > * {
+  position: relative;
+  z-index: 2;
+}
+
+.headline .cover {
+   background: url(../images/bg-img/bg-image-headline.jpg) no-repeat;
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+  display: block;
+  background-position: center -450px;
+}
+
+.headline .hero-quote {
+  font-size: 30px;
+  color: #ec5242;
+}
+
+.headline-description {
+  border: 3px solid white;
+  background: #f0f0f0;
+  padding: 10px;
+  color: #575b66;
+  max-width: 540px;
+  font-size: 10px;
+  font-weight: 800;
+  line-height: 20px;
+}
+
+.headline .time {
+  font-size: 30px;
+  font-weight: 900;
+  color: #272a31;
+}
+
+.headline .venue {
+  font-size: 30px;
+  font-weight: 500;
+  color: #272a31;
+}
+
+/* Program section */
+
+.main-program {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: auto 1fr auto;
+  padding: 40px 20px;
+  background: url(../images/bg-img/bg-image-program.png) repeat;
+  justify-items: center;
+}
+
+.main-program h2 {
+  color: white;
+  font-size: 20px;
+  text-align: center;
+}
+
+.red-line {
+  height: 2px;
+  width: 50px;
+  background: #ec5242;
+  margin-top: 10px;
+  margin-bottom: 30px;
+}
+
+.main-program .main-program-content {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: repeat(5, auto);
+  grid-gap: 10px;
+}
+
+.main-program-content .details {
+  display: grid;
+  grid-template-columns: 1fr 2fr 3fr;
+  grid-gap: 2px;
+  padding: 10px 20px;
+  align-items: center;
+  color: white;
+  border: 1px solid transparent;
+  background: rgba(255, 255, 255, 0.1);
+}
+
+.main-program-content .details img {
+  width: 100%;
+  height: 100%;
+}
+
+.main-program-content .details h3 {
+  color: #ec5242;
+  padding-left: 10px;
+}
+
+.main-program-content .details p {
+  font-size: 12px;
+  font-weight: 700;
+  line-height: 20px;
+}
+
+.main-program button {
+  margin-top: 35px;
+  padding: 20px 30px;
+  color: white;
+  font-weight: 600;
+  background: #ec5242;
+  border: none;
+}
+
+/* Comedians section */
+
+.comidians-container {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: auto auto 1fr auto;
+  justify-items: center;
+}
