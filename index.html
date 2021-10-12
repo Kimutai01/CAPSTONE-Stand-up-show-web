@@ -13,14 +13,24 @@
   <link rel="stylesheet" href="assets/stylesheets/style.css">
   <link rel="shortcut icon" href="#">
   <script src="script/seeMoreBtn.js" defer></script>
+  <script src="script/mobMenu.js" defer></script>
+
   <title>Stand-up Show</title>
 </head>
 <body>
+   <!-- mob nav menu -->
+   <div class="mob-navigation" id="mob-navigation" >
+    <a href="#" id="close-btn" class="close-btn">x</a>
+    <a href="#">About</a>
+    <a href="#">Program</a>
+    <a href="#">Comidiants</a>
+ </div>
+ <main class="wrapper">
   <!-- header part includes mob menu and main navigation as well as logo -->
   <header>
     <nav class="main-navigation">
       <!-- mob menu -->
-      <a class="mob-only"><img src="assets/icons/header-icons/mob-menu.svg" alt="Mobile menu icon"></a>
+      <a class="mob-only" id="mob-menu-btn"><img src="assets/icons/header-icons/mob-menu.svg" alt="Mobile menu icon"></a>
       <!-- DT navigatino -->
       <div class="top-nav-part desctop-only">
         <ul>
@@ -43,7 +53,7 @@
       </div>
       <div class="main-nav-part desctop-only">
         <div class="logo-container">
-          <img src="assets/images/bg-img/logo.png" alt="logo">
+          <img src="assets/images/bg-img/logo.svg" alt="logo">
         </div>
         <ul>
           <li>
@@ -154,7 +164,7 @@
       </div>
     </div>
 
-    <div class="comidian hidden">
+    <div class="comidian hidden" id="hiddenInfo">
       <div class="com-img-container">
         <img src="assets/images/comidians-img/EddyMuerphy.png" alt="Edie Murphy comidian">
       </div>
@@ -168,7 +178,7 @@
      </div>
     </div>
 
-    <div class="comidian hidden">
+    <div class="comidian hidden" id="hiddenInfo2">
       <div class="com-img-container">
         <img src="assets/images/comidians-img/JerrySienfield.png" alt="Jerry Seinfeld comidian">
       </div>
@@ -182,7 +192,7 @@
         </div>
      </div>
 
-    <div class="comidian hidden">
+    <div class="comidian hidden" id="hiddenInfo3">
       <div class="com-img-container">
         <img src="assets/images/comidians-img/Kevinhart.png" alt="Keyin Hart comidian">
      </div>
@@ -196,7 +206,7 @@
       </div>
      </div>
 
-    <div class="comidian hidden">
+    <div class="comidian hidden" id="hiddenInfo4">
       <div class="com-img-container">
         <img src="assets/images/comidians-img/MikeBirbig.png" alt="Mike Birbig comidian">
       </div>
@@ -214,7 +224,7 @@
     <button type="button" id="comedian-see-more-btn">More <img src="assets/icons/com-icons/expand_more_black_24dp.svg" alt="expand more"></button>
   </section>
   <!-- footer part -->
-  <footer class="main-footer">
+  <!-- <footer class="main-footer">
     <h2>Partners</h2>
     <nav class="footer-nav">
       <ul>
@@ -248,6 +258,7 @@
         &copy;2021 Hope Align Service<br>All Rights Reserved.
       </small>
     </div>
-  </footer>
+  </footer> -->
+  </main>
 </body>
 </html>
