@@ -94,7 +94,7 @@ header {
 
 .headline-description {
   border: 1px solid rgb(209, 209, 209);
-  background: #ffffff;
+  background: #fff;
   padding: 10px;
   color: #575b66;
   max-width: 700px;
@@ -157,7 +157,7 @@ header {
 
 .logo-contanier {
   border: 1px solid rgb(209, 209, 209);
-  background: #ffffff;
+  background: #fff;
   padding: 10px 30px;
   color: #575b66;
   max-width: 700px;
@@ -237,11 +237,12 @@ header {
   color: #fff;
 }
 
-.footer-head h2, .red-line  {
+.footer-head h2,
+.red-line {
   align-self: center;
 }
 
-.footer-head  h2 {
+.footer-head h2 {
   font-size: 20px;
 }
 
@@ -267,11 +268,11 @@ header {
 }
 
 /* Desctop version */
-/* Breakpoint for the switch is 769px */
-@media (min-width: 769px) {
 
+/* Breakpoint for the switch is 769px */
+@media (min-width: 768px) {
   h2 {
-    font-style: 30px;
+    font-size: 30px;
   }
 
   .mob-only {
@@ -286,11 +287,8 @@ header {
     padding: 0;
   }
 
-  .main-navigation {
-    display: grid;
-    grid-template-columns: 1fr;
-    grid-template-rows: auto 1fr;
-    box-shadow:  0px 1px 10px -8px #0C0C0B;
+  #targeted-menu:visited {
+    color: #ec5242;
   }
 
   .main-navigation .top-nav-part {
@@ -300,10 +298,21 @@ header {
   .main-navigation .top-nav-part ul {
     padding: 10px 200px;
     list-style: none;
-    display: grid;
     background: #575b66;
     display: flex;
     justify-content: flex-end;
+  }
+
+  .main-navigation .main-nav-part a {
+    text-decoration: none;
+    color: #575b66;
+    font-weight: 600;
+  }
+
+  .main-navigation .cc-compaign a {
+    color: #ec5242;
+    padding: 15px 20px;
+    border: 5px solid #ec5242;
   }
 
   .main-navigation .top-nav-part ul a {
@@ -322,10 +331,8 @@ header {
     background: white;
   }
 
-  .main-navigation .main-nav-part a {
-    text-decoration: none;
-    color: #575b66;
-    font-weight: 600;
+  .main-navigation .main-nav-part a:active {
+    color: #ec5242;
   }
 
   .logo-container img {
@@ -340,12 +347,6 @@ header {
     align-items: center;
   }
 
-  .main-navigation .cc-compaign a {
-    color: #ec5242;
-    padding: 15px 20px;
-    border: 5px solid #ec5242;
-  }
-
   /* headline desktop */
 
   .about-headline {
@@ -357,18 +358,17 @@ header {
   .previous-events {
     grid-template-columns: 1fr 1fr;
     grid-template-rows: repeat(4, auto);
-    grid-template-areas: 
-    "heading heading"
-    "line line"
-    "desc desc"
-    "ev-1 ev-2";
-
+    grid-template-areas:
+      "heading heading"
+      "line line"
+      "desc desc"
+      "ev-1 ev-2";
   }
 
   .prev-heading {
     grid-area: heading;
   }
-  
+
   .prev-txt {
     grid-area: desc;
   }
@@ -403,6 +403,4 @@ header {
   .main-footer .copyright .footer-logo {
     grid-row: 1 / 3;
   }
-
-  
 }
