@@ -69,7 +69,7 @@ header {
 .about-headline {
   background: url(../images/bg-img/about-page/headline-bg.svg) no-repeat;
   background-size: cover;
-  padding: 100px 10px 80px 10px;
+  padding: 100px 10px 40px 10px;
   display: grid;
   grid-template-columns: 1fr;
   grid-template-rows: repeat(3, auto);
@@ -246,13 +246,19 @@ header {
   font-size: 20px;
 }
 
+.footer-head li a {
+  display: block;
+  width: 100%;
+  height: 100%;
+  padding: 10px 10px;
+}
+
 .footer-head ul {
   list-style: none;
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-  justify-items: center;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
   align-items: center;
-  grid-gap: 10px;
 }
 
 .main-footer img {
@@ -350,7 +356,7 @@ header {
   /* headline desktop */
 
   .about-headline {
-    padding: 200px 0;
+    padding-top: 200px;
   }
 
   /* prev event */

@@ -14,7 +14,7 @@ A simple web page developed within the Microverse curriculum, which contains/pro
 
 ## Live Demo
 
-[Live Demo Link](https://livedemo.com)
+[Live Demo Link](https://hope1226.github.io/CAPSTONE-Stand-up-show-web/)
 
 ## Video presentation
 
@@ -59,7 +59,7 @@ Give a ⭐️ if you like this project!
 
 ## Acknowledgments
 
-- Design by: [Cindy Shin](https://www.behance.net/adagio07) (Modified)
+- Design by: [Cindy Shin](https://www.behance.net/adagio07) (the author of the original design)
 
 
 ## 📝 License
