@@ -16,6 +16,10 @@ A simple web page developed within the Microverse curriculum, which contains/pro
 
 [Live Demo Link](https://livedemo.com)
 
+## Video presentation
+
+[Click here to see the presentation](https://www.loom.com/share/81a655b5649b48f2a9c4bc92315697bf)
+
 
 ## Getting Started
 
@@ -55,9 +59,9 @@ Give a ⭐️ if you like this project!
 
 ## Acknowledgments
 
-- Hat tip to anyone whose code was used
-- Stand-up comunity
+- Design by: [Cindy Shin](https://www.behance.net/adagio07) (Modified)
+
 
 ## 📝 License
 
-This project is [MIT](licence/MIT.md) licensed.
+This project is [Attribution-NonCommercial 4.0 International CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/) licensed.
