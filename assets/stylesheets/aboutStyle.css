@@ -223,6 +223,49 @@ header {
   display: flex;
 }
 
+.main-footer {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: repeat(2, auto);
+}
+
+.footer-head {
+  display: flex;
+  flex-direction: column;
+  background: #272a31;
+  padding: 50px 0;
+  color: #fff;
+}
+
+.footer-head h2, .red-line  {
+  align-self: center;
+}
+
+.footer-head  h2 {
+  font-size: 20px;
+}
+
+.footer-head ul {
+  list-style: none;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  justify-items: center;
+  align-items: center;
+  grid-gap: 10px;
+}
+
+.main-footer img {
+  width: 100px;
+  max-width: 200px;
+}
+
+.main-footer .copyright {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  color: #575b66;
+}
+
 /* Desctop version */
 /* Breakpoint for the switch is 769px */
 @media (min-width: 769px) {
@@ -343,4 +386,23 @@ header {
     grid-area: ev-2;
     justify-self: start;
   }
+
+  .footer-head {
+    display: none;
+  }
+
+  .main-footer .copyright {
+    display: grid;
+    grid-template-columns: auto 1fr;
+    grid-column-gap: 20px;
+    padding: 50px 200px;
+    background: #272a31;
+    color: white;
+  }
+
+  .main-footer .copyright .footer-logo {
+    grid-row: 1 / 3;
+  }
+
+  
 }
