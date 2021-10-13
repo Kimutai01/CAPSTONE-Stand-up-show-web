@@ -4,7 +4,7 @@
 
 > The webpage about the main Stand-up shows around the globe for 2021.
 
-![screenshot](licence/app_screenshot.png)
+![screenshot](aseets/images/readme-screenshot/Screenshot from 2021-10-14 00-15-11.png)
 
 A simple web page developed within the Microverse curriculum, which contains/provides information about world class Stand-up comedians and their shows scheduled for 2021.
 
