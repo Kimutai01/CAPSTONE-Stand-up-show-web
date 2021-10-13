@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet"> 
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Archivo+Black&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Mada:wght@200;300;400;500;600;700;900&display=swap" rel="stylesheet"> 
+  <link rel="stylesheet" href="assets/stylesheets/style.css">
+  <link rel="shortcut icon" href="#">
+  <script src="script/mobMenu.js" defer></script>
+  <script src="script/dynamic.js" defer></script>
+  <script src="script/seeMoreBtn.js" defer></script>
+  <title>Stand-up Show</title>
+</head>
+<body>
+   <!-- mob nav menu -->
+   <div class="mob-navigation" id="mob-navigation" >
+    <a href="#" id="close-btn" class="close-btn">x</a>
+    <a href="pages/about.html">About</a>
+    <a href="#">Details</a>
+    <a href="#">Comidiants</a>
+ </div>
+ <main class="wrapper">
+  <!-- header part includes mob menu and main navigation as well as logo -->
+  <header>
+    <nav class="main-navigation">
+      <!-- mob menu -->
+      <a class="mob-only" id="mob-menu-btn"><img src="assets/icons/header-icons/mob-menu.svg" alt="Mobile menu icon"></a>
+      <!-- DT navigatino -->
+      <div class="top-nav-part desctop-only">
+        <ul>
+          <li>
+            <a href="#"><img src="assets/icons/header-icons/social-twiter.svg" alt="tiwtter"></a>
+          </li>
+          <li>
+            <a href="#"><img src="assets/icons/header-icons/social-in.svg" alt="linkedin"></a>
+          </li>
+          <li>
+            <a href="#">Logout</a>
+          </li>
+          <li>
+            <a href="#">Maypage</a>
+          </li>
+          <li>
+            <a href="#">Russian</a>
+          </li>
+        </ul>
+      </div>
+      <div class="main-nav-part desctop-only">
+        <div class="logo-container">
+          <a href="#"><img src="assets/images/bg-img/logo.svg" alt="logo"></a>
+        </div>
+        <ul>
+          <li>
+            <a href="pages/about.html">About</a>
+          </li>
+          <li>
+            <a href="#">Program</a>
+          </li>
+          <li>
+            <a href="#">Join</a>
+          </li>
+          <li>
+            <a href="#">Sponsors</a>
+          </li>
+          <li>
+            <a href="#">News</a>
+          </li>
+        </ul>
+        <div class="cc-compaign">
+          <a href="#">CC Compaign</a>
+        </div>
+      </div>
+    </nav>
+  </header>
+  <!-- Headline section includes hero text as well as description -->
+  <section class="headline">
+    <div class="transparent-layer">
+    <div class="hero">
+      <p class="hero-quote">"Hello! Sharing world!"</p>
+      <h1 class="hero-text"><span class="cover">World-Class<br>Global Stand-up<br>2021</span></h1>
+    </div>
+    <div class="headline-description">
+      <p>A joyful celebration of the gathering of the world class Stand-up 
+        comedians from all around the world will be sharing positive energy 
+        wiht you in December 2021, in Russia
+      </p>
+    </div>
+    <p class="time">2021.12.28 (THU)&#8722;31 (SU)</p>
+    <p class="venue">145, MilkyRoad Avenu, Moscow</p>
+    </div>
+  </section>
+  <!-- Main program session includes all the details about the show -->
+  <section class="main-program">
+    <h2>Details</h2>
+    <div class="red-line"></div>
+    <div class="main-program-content">
+      <div class="details">
+        <img src="assets/icons/programm-icons/dates.svg" alt="dates icon">
+        <h3>Dates</h3>
+        <p>Four consecutive days of real comedy from the top-class stand up comedians</p>
+      </div>
+      <div class="details">
+        <img src="assets/icons/programm-icons/location.svg" alt="location icon">
+        <h3>Venue</h3>
+        <p>The evnt will take place: 145, MilkyRoad Avenu, Moscow</p>
+      </div>
+      <div class="details">
+        <img src="assets/icons/programm-icons/book-online.svg" alt="book online">
+        <h3>Book online</h3>
+        <p>Please hurry! places are limeted and can be booked through the following link</p>
+      </div>
+      <div class="details">
+        <img src="assets/icons/programm-icons/payment.svg" alt="payment icon">
+        <h3>Payment</h3>
+        <p>Tickets are in three categories <span class="highlights">gold, premium and standard</span> Get one now!</p>
+      </div>
+      <div class="details">
+        <img src="assets/icons/programm-icons/forum.svg" alt="forum icon">
+        <h3>Forum</h3>
+        <p>Please join the millions to discuss the event and stay updated</p>
+      </div>
+    </div>
+    <button type="button" id="main-prog-btn">Buy tickets now!</button>
+  </section>
+
+  <!-- comidian section with the information about comidians -->
+  <section class="comidians-container">
+    <h2>Comidians</h2>
+    <div class="red-line"></div>
+
+    <div class="comidians">
+      <!-- this part is getting generated by JS -->
+    </div>
+    <button type="button" id="comedian-see-more-btn">See all <img src="assets/icons/com-icons/expand_more_black_24dp.svg" alt="expand more"></button>
+  </section>
+  <!-- footer part -->
+  <footer class="main-footer">
+   <div class="footer-head">
+     <h2>Partners</h2>
+     <div class="red-line"></div>
+     <nav class="footer-nav">
+       <ul>
+         <li>
+           <a href="#">
+             <img src="assets/icons/footer-icons/airbnb.png" alt="airbnb">
+           </a>
+         </li>
+         <li>
+           <a href="#">
+             <img src="assets/icons/footer-icons/mozilla.svg" alt="mozzila">
+           </a>
+         </li>
+         <li>
+           <a href="#">
+             <img src="assets/icons/footer-icons/addidas.png" alt="addidas">
+           </a>
+         </li>
+         <li>
+           <a href="#">
+             <img src="assets/icons/footer-icons/pepsi.png" alt="pepsi">
+           </a>
+         </li>
+         <li>
+           <a href="#">
+             <img src="assets/icons/footer-icons/google.png" alt="google">
+           </a>
+         </li>
+       </ul>
+     </nav>
+   </div>
+   <div class="copyright">
+     <div class="footer-logo">
+       <img src="assets/images/bg-img/logo.svg" alt="footer logo">
+     </div>
+     <small>
+       &copy;2021 Hope Aliens Services<br>All Rights Reserved.
+     </small>
+     <p class="desctop-only">All rights are reserved and certified. Please contact your lawyer 
+       before using any content or information related to the event in 
+       commerce, actions as such may lead to jail.
+     </p>
+   </div>
+  </footer>
+  </main>
+</body>
+</html>

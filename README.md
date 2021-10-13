@@ -4,7 +4,7 @@
 
 > The webpage about the main Stand-up shows around the globe for 2021.
 
-![screenshot](licence/app_screenshot.png)
+![screenshot](aseets/images/readme-screenshot/Screenshot from 2021-10-14 00-15-11.png)
 
 A simple web page developed within the Microverse curriculum, which contains/provides information about world class Stand-up comedians and their shows scheduled for 2021.
 
@@ -14,7 +14,11 @@ A simple web page developed within the Microverse curriculum, which contains/pro
 
 ## Live Demo
 
-[Live Demo Link](https://livedemo.com)
+[Live Demo Link](https://hope1226.github.io/CAPSTONE-Stand-up-show-web/)
+
+## Video presentation
+
+[Click here to see the presentation](https://www.loom.com/share/81a655b5649b48f2a9c4bc92315697bf)
 
 
 ## Getting Started
@@ -55,9 +59,9 @@ Give a ⭐️ if you like this project!
 
 ## Acknowledgments
 
-- Hat tip to anyone whose code was used
-- Stand-up comunity
+- Design by: [Cindy Shin](https://www.behance.net/adagio07) (the author of the original design)
+
 
 ## 📝 License
 
-This project is [MIT](licence/MIT.md) licensed.
+This project is [Attribution-NonCommercial 4.0 International CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/) licensed.
